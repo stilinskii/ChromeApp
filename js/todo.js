@@ -1,6 +1,6 @@
-const toDoForm = document.getElementById('todo-form');
-const toDoInput = toDoForm.getElementsByTagName('input')[0];
-// const toDoInput = document.querySelector('#todo-form input');
+// const toDoForm = document.getElementById('todo-form');
+// const toDoInput = toDoForm.getElementsByTagName('input')[0];
+const toDoInput = document.querySelector('#todo-form input');
 const toDoList = document.getElementById('todo-list');
 console.dir(toDoList);
 
